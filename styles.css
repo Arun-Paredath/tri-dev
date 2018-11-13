@@ -1,0 +1,87 @@
+.pindex{
+  background: url("Images/Best_Friends.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.ch3{
+       font-family: 'Dancing Script', cursive;
+       padding-bottom: 25px;
+    }
+
+.about{
+      margin-top: 10px;
+      margin-left: 25px;
+      padding-left: 35px;
+    }
+
+.description{
+  text-align: justify;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.hclass{
+      font-family: 'Great Vibes', cursive;
+      text-align: center;
+      font-size: 40px;
+  }
+
+.gallery{
+  width: 30%;
+  float: left;
+  margin: 1.66%
+}
+
+.pPhoto{
+  font-family: "Great Vibes";
+  margin-left: 1.66%;
+  font-size: 23px;
+  font-weight: 800;
+  text-transform: uppercase;
+  /*border-bottom: 2px solid #f2f2f2;*/
+  /*width: 30%;*/
+  padding-bottom:20px; 
+  text-align: center;
+  color: red ; 
+}
+
+.pIndex {
+  font-family: Raleway;
+  margin-left: 1.66%;
+  font-size: 23px;
+  font-weight: 400;
+  color: red;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f2f2f2;
+  padding-bottom:20px; 
+  text-align: justify;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 25px;
+  }
+}
+
+.tooltips {
+  position: relative;
+    display: inline-block;
+}
+
+.tooltips .tooltipstext {
+    visibility: hidden;
+    width: 180px;
+    background-color: Teal;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltips:hover .tooltipstext {
+    visibility: visible;
+}
