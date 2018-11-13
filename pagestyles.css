@@ -1,0 +1,30 @@
+.about{
+      margin-top: 10px;
+      margin-left: 25px;
+      padding-left: 35px;
+    }
+
+    .space{
+    	padding-left: 40px;
+    }
+
+    .ch3{
+    	 font-family: 'Dancing Script', cursive;
+    	 padding-bottom: 25px;
+    }
+
+    p{
+    	padding-left: 25px;
+    	padding-right: 25px;
+    }
+
+/*	table {
+    	padding-left: 25px;
+    	padding-right: 25px;
+    }*/
+
+    body{
+    	padding-left: 25px;
+    	padding-right: 25px;
+    }
+    
