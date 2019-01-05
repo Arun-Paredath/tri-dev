@@ -5,35 +5,29 @@
   background-size: cover;
   -o-background-size: cover;
 }
-
 .ch3{
        font-family: 'Dancing Script', cursive;
        padding-bottom: 25px;
     }
-
 .about{
       margin-top: 10px;
       margin-left: 25px;
       padding-left: 35px;
     }
-
 .description{
   text-align: justify;
   font-family: 'Encode Sans Condensed', sans-serif;
 }
-
 .hclass{
       font-family: 'Great Vibes', cursive;
       text-align: center;
       font-size: 40px;
   }
-
 .gallery{
   width: 30%;
   float: left;
   margin: 1.66%
 }
-
 .pPhoto{
   font-family: "Great Vibes";
   margin-left: 1.66%;
@@ -46,7 +40,6 @@
   text-align: center;
   color: red ; 
 }
-
 .pIndex {
   font-family: Raleway;
   margin-left: 1.66%;
@@ -58,18 +51,15 @@
   padding-bottom:20px; 
   text-align: justify;
 }
-
 @media (min-width: 992px) {
   body {
     padding-top: 25px;
   }
 }
-
 .tooltips {
   position: relative;
     display: inline-block;
 }
-
 .tooltips .tooltipstext {
     visibility: hidden;
     width: 180px;
@@ -81,7 +71,9 @@
     position: absolute;
     z-index: 1;
 }
-
 .tooltips:hover .tooltipstext {
     visibility: visible;
 }
+@font-face { font-family: "Encode Sans Condensed"; src: url('fonts/EncodeSansCondensed-Medium.ttf'); } 
+@font-face { font-family: "Great Vibes"; src: url('fonts/GreatVibes-Regular.ttf'); } 
+@font-face { font-family: "Raleway"; src: url('fonts/Raleway-ExtraBold.ttf'); } 
